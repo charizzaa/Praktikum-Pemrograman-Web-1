@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran PO Korsa</title>
+    <style>
+        body{background-color:grey;}
+            h1{color:whitesmoke;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                text-align: center;}
+            fieldset{background-color:whitesmoke;
+                width: 500; height: auto;}
+            legend{text-align: center;
+                font-size: 32;
+                padding: 5px 10px;
+                background-color: lightgrey;
+                border-color: lightgrey;}
+            form{font-family: 'Times New Roman', Times, serif;
+                font-size: medium;}
+            input[type=text]:focus {
+                background-color: rgb(143, 158, 163);}
+            fieldset{height: auto;
+                width: 500px;
+                margin: auto;}
+    </style>
+</head>
+<body>
+    <center><img src="korsafix.jpg" class="center" height="300" width="530"></center>
+    <fieldset>
+        <legend>
+            <b>Form Pendaftaran PO Korsa</b>
+        </legend>
+        <form>
+            <br>Nama Lengkap 
+            <br><input type="text" size="30">
+            <br>
+            <br>Departemen 
+            <br>
+            <select>
+                <option value="DBSMB">DBSMB</option>
+                <option value="DEB">DEB</option>
+                <option value="DLIKES">DLIKES</option>
+                <option value="DTEDI">DTEDI</option>
+                <option value="DTHV">DTHV</option>
+                <option value="DTK">DTK</option>
+                <option value="DTM">DTM</option>
+                <option value="DTS">DTS</option>
+            </select>
+            <br>
+            <br>Prodi 
+            <br><input type="text" size="30">
+            <br>
+            <br>Nomor Telepon 
+            <br><input type="text" size="30">
+            <br>
+            <br>Nama di Korsa 
+            <br><input type="text" size="30">
+            <br>
+            <br>Ukuran Korsa
+            <br>
+            <select>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+            </select>
+            <br>
+            <br>Metode Pembayaran
+            <br><input type="radio" value="ShopeePay"><img src="download.png" align="middle" width="100" height="50">ShopeePay
+            <br>
+            <br><input type="radio" value="OVO"><img src="ovo.png" align="middle" width="100" height="50">OVO
+            <br>
+            <br><input type="radio" value="BCA"><img src="bca.jpeg" align="middle" width="100" height="60">BCA
+            <br>
+            <br><input type="radio" value="BRI"><img src="bri.png" align="middle" width="100" height="50">BRI
+            <br>
+            <br><input type="radio" value="BNI"><img src="bni.png" align="middle" width="100" height="40">BNI
+            <br>
+            <br>
+            <input type="button" value="Submit">
+        </form>
+    </fieldset>
+</body>
+</html>
